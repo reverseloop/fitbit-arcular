@@ -1,0 +1,31 @@
+
+.background {
+  viewport-fill: #000000;
+}
+
+#clock {
+  width: 250;
+  height: 250;
+  x: 50%-125;
+  y: 50%-125;
+}
+
+text {
+  fill: white;
+  text-length: 250;
+  text-anchor: middle;
+}
+
+#dayNumber {
+  x: 50%;
+  y: 50%+5;
+  font-size: 50;
+  font-family: Seville-Book;
+}
+
+#dayName {
+  x: 50%;
+  y: 50%+35;
+  font-size: 16;
+  font-family: Seville-Bold;
+}
